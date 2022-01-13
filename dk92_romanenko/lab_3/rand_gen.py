@@ -9,6 +9,8 @@ from yaml import safe_load
 
 LANG = 'uk'
 
+# Test coment
+
 translit = partial(translit, language_code=LANG, reversed=True)
 
 
